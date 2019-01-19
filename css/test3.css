@@ -1,0 +1,233 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: #010101;
+    margin: 0;
+    padding: 0;
+    direction: ltr
+}
+.herosection{
+    width: 100%;
+  height: auto;
+    background-color: #fcdb00;
+    padding: 52px 0px 100px 0px;
+    box-sizing: border-box
+}
+ .container{
+    width: 940px;
+    margin: 0 auto
+}
+.herosection .container .nav .logo{
+    width: 50%;
+    float: left
+}
+.herosection .container .nav .menu{
+    width: 50%;
+    float: right
+}
+.herosection .container .nav .menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px
+}
+.herosection .container .nav .menu ul li:first-child{
+    margin-left: 0px
+}
+.herosection .container .nav .menu ul {
+    text-align: right
+}
+.herosection .container .nav .menu ul a{
+    color: #010101;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.clear{
+    clear: both
+}
+.heroDesc {
+    float: left;
+    width: 50%;
+    padding-top: 65px;
+    box-sizing: border-box
+}
+.heroDesc h2{
+    padding-right: 30px
+}
+.heroDesc p{
+    padding-right: 50px
+}
+.herosection .Links a {
+ color: #010101;
+ text-decoration: none;
+ font-size: 42px;
+ margin-right: 50px
+}
+a.Links i{
+    font-size: 42px;
+    color: #010101;
+}
+.heroImg{
+    float: right;
+    width: 50%;
+    padding-top: 65px;
+    
+}
+.heroImg img{
+    margin-left: 165px
+}
+.feature{
+    padding-top: 125px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 46px
+}
+
+.feature h2{
+    text-align: center;
+    font-size: 32px;
+}
+.feature .loremparagraph{
+    text-align: center;
+    color: #313841;
+    font-size: 20px;
+    width: 80%;
+    margin: 26px auto 93px
+}
+.feature .row{
+    width: 100%;
+    height: auto;
+    margin-bottom: 90px
+}
+.feature .row .featureItem{
+    float: left;
+    width: 33.3%
+}
+.feature .row .featureItem .featureIcon{
+    float: left;
+    width: 60px;
+    font-size: 50px;
+    padding-top: 22px;
+    box-sizing: border-box
+
+}
+.feature .row .featureItem .featureDesc{
+    float: right;
+    width: calc(100% - 60px);
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 5px
+}
+.feature .row .featureItem .featureDesc h3{
+    font-size: 22px
+}
+.feature .row .featureItem .featureDesc p{
+    text-align: left;
+    font-size: 16px;
+    color: #898989
+}
+/*start footer section*/
+.footer{
+    width: 100%;
+    background-color: #010101;
+    padding: 96px 0px 40px;
+    min-height: 50px;
+    box-sizing: border-box
+}
+.footer h2{
+    color: #fcdb00;
+    text-align: center;
+    font-size: 32px
+}
+.footer p{
+    text-align: center;
+    color: #898989;
+    font-size: 20px;
+    width: 79%;
+    margin: 0 auto;
+    margin-bottom: 40px
+}
+.footer form .emailInput{
+    width: 580px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    height: 50px;
+    margin-right: 20px
+}
+.footer form .submit{
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fcdb00;
+    border: none;
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.footer form .submit:hover{
+    background-color: #ffae00;
+    transition: all 0.2s ease-in-out
+}
+.footer form {
+    text-align: center;
+    margin: 50px auto
+}
+.footer .social{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px
+}
+.footer .social a{
+    display: inline-block;
+    background-color: #fcdb00;
+    width: 37px;
+    height: 37px;
+    border-radius: 5px;
+    color: #010101;
+    font-size: 32px;
+    line-height: 42px;
+    margin-right: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.footer .social a:hover{
+    background-color: #ffae00;
+    transition: all 0.2s ease-in-out
+}
+.footer .about{
+    width: 20%;
+    float: left;
+}
+.footer .about p{
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0px;
+    
+
+}
+.footer .about span a,
+.footer .about ul li a
+{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out
+}
+.footer .about ul {
+   margin-top: 0px;
+   padding-left: 80px
+}
+.footer .about span a:hover,
+.footer .about ul li a:hover{
+    text-decoration: underline;
+    color: #fcdb00;
+    transition: all 0.2s ease-in-out
+}
+.footer .about span{
+    color: #fff;
+    font-size: 16px
+}
